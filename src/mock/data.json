@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "label": "南京南京",
+    "children": [
+      {
+        "id": 2,
+        "label": "车辆",
+        "children": [
+          {
+            "id": 6,
+            "label": "玄武区",
+            "children": [
+              {
+                "id": 10,
+                "label": "川C99578(测试类型六)",
+                "children": [
+                  {
+                    "id": 18,
+                    "label": "CH1"
+                  },
+                  {
+                    "id": 19,
+                    "label": "CH3"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "label": "苏AL9803(测试五)",
+                "children": [
+                  {
+                    "id": 20,
+                    "label": "CH1"
+                  },
+                  {
+                    "id": 21,
+                    "label": "CH2"
+                  },
+                  {
+                    "id": 22,
+                    "label": "CH3"
+                  },
+                  {
+                    "id": 23,
+                    "label": "CH4"
+                  }
+                ]
+              },
+              {
+                "id": 12,
+                "label": "苏AG2737(测试五)",
+                "children": [
+                  {
+                    "id": 24,
+                    "label": "CH1"
+                  },
+                  {
+                    "id": 25,
+                    "label": "CH2"
+                  },
+                  {
+                    "id": 26,
+                    "label": "CH3"
+                  },
+                  {
+                    "id": 27,
+                    "label": "CH4"
+                  },
+                  {
+                    "id": 28,
+                    "label": "CH5"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "label": "苏AR191J(测试五)",
+                "children": [
+                  {
+                    "id": 29,
+                    "label": "CH1"
+                  },
+                  {
+                    "id": 30,
+                    "label": "CH2"
+                  },
+                  {
+                    "id": 31,
+                    "label": "CH3"
+                  },
+                  {
+                    "id": 32,
+                    "label": "CH4"
+                  }
+                ]
+              },
+              {
+                "id": 14,
+                "label": "苏AP7209(测试五)",
+                "children": [
+                  {
+                    "id": 33,
+                    "label": "CH1"
+                  },
+                  {
+                    "id": 34,
+                    "label": "CH2"
+                  },
+                  {
+                    "id": 35,
+                    "label": "CH3"
+                  },
+                  {
+                    "id": 36,
+                    "label": "CH4"
+                  }
+                ]
+              },
+              {
+                "id": 15,
+                "label": "川A00011(测试五)",
+                "children": [
+                  {
+                    "id": 37,
+                    "label": "CH1"
+                  },
+                  {
+                    "id": 38,
+                    "label": "CH2"
+                  },
+                  {
+                    "id": 39,
+                    "label": "CH3"
+                  },
+                  {
+                    "id": 40,
+                    "label": "CH4"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "label": "南京南京"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "公厕",
+        "children": [
+          {
+            "id": 8,
+            "label": "玄武区"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "中转站",
+        "children": [
+          {
+            "id": 9,
+            "label": "玄武区",
+            "children": [
+              {
+                "id": 16,
+                "label": "玄武中转3号"
+              },
+              {
+                "id": 17,
+                "label": "中转站8",
+                "children": [
+                  { "label": "CH1", "id": 41 },
+                  { "label": "CH2", "id": 42 },
+                  { "label": "CH3", "id": 43 },
+                  { "label": "CH4", "id": 44 },
+                  { "label": "CH5", "id": 45 },
+                  { "label": "CH6", "id": 46 },
+                  { "label": "CH7", "id": 47 },
+                  { "label": "CH8", "id": 48 },
+                  { "label": "CH9", "id": 49 },
+                  { "label": "CH10", "id": 50 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "垃圾收集点"
+      }
+    ]
+  }
+]
