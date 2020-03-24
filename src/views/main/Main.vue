@@ -24,12 +24,7 @@
             <img class="closeImg" @click="close(index, item.id)" src="~assets/img/video_icon_close.png" alt="" />
           </header>
           <div class="red">
-            <video
-              width="100%"
-              height="100%"
-              object-fit:fill
-              src="https://vdept.bdstatic.com/4b6b364964484565687a436a5575444e/7272525073356672/75bbfbdbcccc285fea4cb7fb94864ec162cfa77e57ec76c09bb3c1f6f54a6bd8049b8b0b26b2ab68e9b53736e5ea66a6.mp4?auth_key=1584673578-0-0-3e85ad9c99e5bc0cc611404a8cbe4c1a"
-            ></video>
+            <video autoplay src="~assets/video/a.mp4"></video>
             <div class="imgList">
               <img src="~assets/img/viwall_bt_screenshot.png" alt="" />
               <img src="~assets/img/viwall_bt_stop.png" alt="" />
@@ -41,7 +36,7 @@
         <li class="video-item" v-for="(noItem, noIndex) in noTemList" :key="'no2' + noIndex">
           <header>暂无数据</header>
           <div class="red">
-            <img class="play" src="../../assets/img/video_pic_default.png" alt="" />
+            <img class="play" src="~assets/img/video_pic_default.png" alt="" />
           </div>
         </li>
       </el-main>
@@ -115,6 +110,7 @@ export default {
               obj['labelName'] = labelName
               obj['type'] = data.children[i].label
               obj['id'] = data.children[i].id
+              obj['video'] = data.children[i].video
               // 如何数组中存在就不再添加
               this.unquie(obj)
             }
@@ -125,6 +121,7 @@ export default {
         obj2['labelName'] = node.parent.data.label
         obj2['type'] = data.label
         obj2['id'] = data.id
+        obj2['video'] = data.video
         this.unquie(obj2)
       }
     },
@@ -219,6 +216,11 @@ export default {
         .red {
           width: 100%;
           height: 100%;
+          video {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+          }
           .play {
             width: 50px;
             height: 50px;

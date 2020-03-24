@@ -17,11 +17,13 @@
                 "children": [
                   {
                     "id": 18,
-                    "label": "CH1"
+                    "label": "CH1",
+                    "video": "a"
                   },
                   {
                     "id": 19,
-                    "label": "CH3"
+                    "label": "CH3",
+                    "video": "b"
                   }
                 ]
               },
@@ -31,19 +33,23 @@
                 "children": [
                   {
                     "id": 20,
-                    "label": "CH1"
+                    "label": "CH1",
+                    "video": "a"
                   },
                   {
                     "id": 21,
-                    "label": "CH2"
+                    "label": "CH2",
+                    "video": "b"
                   },
                   {
                     "id": 22,
-                    "label": "CH3"
+                    "label": "CH3",
+                    "video": "a"
                   },
                   {
                     "id": 23,
-                    "label": "CH4"
+                    "label": "CH4",
+                    "video": "b"
                   }
                 ]
               },
@@ -53,23 +59,28 @@
                 "children": [
                   {
                     "id": 24,
-                    "label": "CH1"
+                    "label": "CH1",
+                    "video": "a"
                   },
                   {
                     "id": 25,
-                    "label": "CH2"
+                    "label": "CH2",
+                    "video": "b"
                   },
                   {
                     "id": 26,
-                    "label": "CH3"
+                    "label": "CH3",
+                    "video": "a"
                   },
                   {
                     "id": 27,
-                    "label": "CH4"
+                    "label": "CH4",
+                    "video": "b"
                   },
                   {
                     "id": 28,
-                    "label": "CH5"
+                    "label": "CH5",
+                    "video": "a"
                   }
                 ]
               },
@@ -79,19 +90,23 @@
                 "children": [
                   {
                     "id": 29,
-                    "label": "CH1"
+                    "label": "CH1",
+                    "video": "b"
                   },
                   {
                     "id": 30,
-                    "label": "CH2"
+                    "label": "CH2",
+                    "video": "a"
                   },
                   {
                     "id": 31,
-                    "label": "CH3"
+                    "label": "CH3",
+                    "video": "b"
                   },
                   {
                     "id": 32,
-                    "label": "CH4"
+                    "label": "CH4",
+                    "video": "a"
                   }
                 ]
               },
@@ -101,19 +116,23 @@
                 "children": [
                   {
                     "id": 33,
-                    "label": "CH1"
+                    "label": "CH1",
+                    "video": "b"
                   },
                   {
                     "id": 34,
-                    "label": "CH2"
+                    "label": "CH2",
+                    "video": "a"
                   },
                   {
                     "id": 35,
-                    "label": "CH3"
+                    "label": "CH3",
+                    "video": "b"
                   },
                   {
                     "id": 36,
-                    "label": "CH4"
+                    "label": "CH4",
+                    "video": "a"
                   }
                 ]
               },
@@ -123,19 +142,23 @@
                 "children": [
                   {
                     "id": 37,
-                    "label": "CH1"
+                    "label": "CH1",
+                    "video": "b"
                   },
                   {
                     "id": 38,
-                    "label": "CH2"
+                    "label": "CH2",
+                    "video": "a"
                   },
                   {
                     "id": 39,
-                    "label": "CH3"
+                    "label": "CH3",
+                    "video": "b"
                   },
                   {
                     "id": 40,
-                    "label": "CH4"
+                    "label": "CH4",
+                    "video": "a"
                   }
                 ]
               }
@@ -173,16 +196,16 @@
                 "id": 17,
                 "label": "中转站8",
                 "children": [
-                  { "label": "CH1", "id": 41 },
-                  { "label": "CH2", "id": 42 },
-                  { "label": "CH3", "id": 43 },
-                  { "label": "CH4", "id": 44 },
-                  { "label": "CH5", "id": 45 },
-                  { "label": "CH6", "id": 46 },
-                  { "label": "CH7", "id": 47 },
-                  { "label": "CH8", "id": 48 },
-                  { "label": "CH9", "id": 49 },
-                  { "label": "CH10", "id": 50 }
+                  { "label": "CH1", "id": 41, "video": "a" },
+                  { "label": "CH2", "id": 42, "video": "b" },
+                  { "label": "CH3", "id": 43, "video": "a" },
+                  { "label": "CH4", "id": 44, "video": "b" },
+                  { "label": "CH5", "id": 45, "video": "a" },
+                  { "label": "CH6", "id": 46, "video": "b" },
+                  { "label": "CH7", "id": 47, "video": "a" },
+                  { "label": "CH8", "id": 48, "video": "b" },
+                  { "label": "CH9", "id": 49, "video": "a" },
+                  { "label": "CH10", "id": 50, "video": "b" }
                 ]
               }
             ]
